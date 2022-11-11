@@ -1,0 +1,149 @@
+
+@media only screen and (max-width: 540px) {
+    body,html{
+      overflow-x: hidden;
+    }
+  
+  .appear{
+    display: contents;
+  }
+  #list{
+    display: contents;
+  }
+    /* List of options Start */
+  .opt{
+      height:100%;
+      background: black;
+      top:-1vw;
+      z-index:3000;
+      width:70vw;
+      color: white;
+      left:-70vw;
+      transition: all 0.5s;
+      position: fixed;
+  
+  }
+  .opt ul{
+      overflow: hidden;
+  
+  }
+  .opt ul a:nth-child(1) li{
+      margin-top:8vw;
+  }
+  
+  .opt ul a li{
+      background-color:transparent;
+      width:100%;
+      color:white;
+      font-size:4vw;
+      margin-top: 5vw;
+  }
+  /* end */
+  
+  /* slides at first start */
+  .slide{
+    height:60vw;
+    width:90%;
+    right: 0;
+    margin: auto;
+    margin-top: 6vw;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  /* end */
+  
+  /* featured watch boxes after slide and at end start */
+  .container2{
+    display: flex;
+    flex-direction: column;
+    padding-right:5vw;
+    
+  }
+  .container2 div a{
+    height:40vw;
+  margin-right: 1.5vw;
+  width:45%;
+  border-radius: 4px;
+  
+  }
+  .container2 div{
+    justify-content:space-around;
+    align-items: center;
+  }
+  .container2 div:nth-child(2){
+    display: none;
+  }
+  
+    .container2 div a li:nth-child(1){
+      width:20vw;
+    }
+  .container2 div a li:nth-child(1) p:nth-child(2){
+  font-size: 4vw;
+  font-weight: 1000;
+  }
+  .container2 div a li:nth-child(1) p:nth-child(1),.container2 div a li:nth-child(1) p:nth-child(3){
+  font-size: 3vw;
+  }
+  .container2 div a li:nth-child(2){
+  background-color:#cecece;
+  }
+  .container2 div a li:nth-child(2) img{
+  height:40vw;
+  }
+  .fea{
+      font-size: 3vw;
+      visibility: hidden;
+  }
+  /* end */
+  
+  /* Two boxes of cloth and belt after watch and at second last */
+  .container3{
+      background-color: #dbd9d9;
+       padding:4vw 0;
+       margin: 2vw;
+       border-radius: 10px;
+       padding-right:2vw;
+       display: flex;
+       flex-direction: column;
+  }
+  .container3 ul a{
+      width:45%;}
+  .container3 ul a p,.container3 ul a:nth-child(5) button,#cost,#brand{
+      font-size: 4vw;
+  }
+  /* end */
+  
+  /* At middle horizontal list with heading Top offers .. */
+  .BestApp{
+  height:70vw;
+  margin: 3vw 1vw;
+  }
+  .BestApp ul li{
+  padding:4vw 0;
+  }
+  .BestApp ul li p,.BestApp ul li input{
+  font-size: 4vw;
+  }
+  .BestApp ul div{
+  background-color: rgb(255, 255, 255);
+  height:75%
+  }
+  .BestApp ul div figure a li{
+  width:30vw;
+  }
+  .BestApp ul div figure a li img{
+  width:30vw;
+  height:35vw;
+  }
+  .move i{
+    font-size: 6vw;
+  }
+  #products li h5,#products li p{
+  font-size: 3vw;
+  }
+  /* end */
+  
+  .del{
+    display: none;
+  }
+  
+  }

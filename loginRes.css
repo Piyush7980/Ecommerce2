@@ -1,0 +1,27 @@
+@media only screen and (max-width: 540px) {
+
+    .container{
+        width:80%;
+        height:100vw;
+        
+    }
+    .container input{
+     font-size:3vw;
+     padding:3vw;
+     margin:2vw 0;
+    }
+    .container label{
+       font-size: 5vw;
+       font-weight: 500;
+    }
+    .container input[type="button"]{
+        font-size: 3vw;
+        padding:2vw 3vw;
+        width:20vw;
+    }
+    
+    
+    #forP{
+     font-size: 3vw;
+    }
+    }

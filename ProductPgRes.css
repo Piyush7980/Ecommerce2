@@ -1,0 +1,27 @@
+@media only screen and (max-width: 540px) {
+
+    /* this code will arrange two ul each with two boxes in column */
+.container div{
+ flex-direction: column;
+ width: 100%;
+}
+.container div ul a{
+  width:50%;
+}
+.container div ul{
+ margin:5vw 3vw -2vw 3vw;
+}
+.container div ul a p{
+font-size: 3vw;
+}
+#cost{
+   font-size: 3vw;
+}
+#brand{
+ font-size: 3vw;
+}
+
+.opt1{
+    display: none;
+}
+}

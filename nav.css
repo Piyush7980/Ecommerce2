@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    user-select: none;
+  background-color: #faf9e9;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+nav,nav ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+   
+  background-color: #308ce2;
+  color:white;
+    
+}
+nav ul li{
+    padding:1.5vw 1vw;
+    cursor: pointer;
+}
+
+/* Start
+this represents ul which contains image and name */
+.icon{
+    align-items: center;
+
+}
+.icon li img{
+    position: absolute;
+    height:3.4vw;
+    top:14px;
+    left:10px;
+}
+.icon li{
+    margin-left: 1vw;
+    font-size: 2vw;
+    font-weight: 500;
+}
+/* end */
+
+/* Start
+this .allnav reprens ul which contains home login yourcart */
+.allnav li{
+    font-size: 1.3vw;
+    font-weight: 600;
+  }
+  
+  .allnav li a:hover{
+       color: #2c1b1b;
+  }
+
+
+  .allnav li a{
+      color:rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    /* end */
+
+/* Start
+this whole code is dedicated to input box and search button */
+#search input[type = "text"] , input[type = "button"]{
+    padding: 0.5vw 2.2vw 0.5vw 0.5vw;
+font-family: 'Roboto', sans-serif;
+font-size: 1.2vw;
+border-radius: 2px;
+outline: none;
+border:1px solid grey;
+}
+#search input[type = "button"]{
+    padding: 0.6vw;
+    transition: 0.2s all ease-in;
+    border:1px solid #30e280;
+    color:#2c1b1b;
+}
+#search input[type = "button"]:hover{
+background-color: #222419;
+color:white
+}
+/* end */
+
+  
+
+  /* resposive code */
+  @media only screen and (max-width: 540px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .allnav {
+        margin-top: 2vw;
+        }
+    .allnav a{
+    font-size: 3vw;
+    }
+    #search input:nth-child(1){
+        width:70vw;
+        height:4vw;
+        border-radius:0;
+     font-size: 2vw;
+    margin-left: 2vw;
+    
+    }
+    #search input:nth-child(1)::placeholder{
+        /* font-size: 2vw; */
+    }
+    #search input:nth-child(2){
+        width:10vw;
+        height:5.5vw;
+    font-size:2vw ;
+        
+    }
+    nav ul:nth-child(3){
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon{
+        display: none;
+    }
+  }

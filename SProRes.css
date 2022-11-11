@@ -1,0 +1,72 @@
+@media only screen and (max-width: 540px) {
+    .container{
+ width:100%;
+    }
+    .container ul li:nth-child(1){
+width:fit-content;
+margin: 4vw 0;
+margin: auto;
+margin-top: 4vw;
+    }
+.container ul li:nth-child(2){
+margin: auto;
+}
+.container ul li:nth-child(2) img{
+height:4vw;
+margin:2vw 1vw
+}
+.container ul li:nth-child(3) button{
+font-size:3vw ;
+}
+.container ul li:nth-child(3) a:nth-child(1) button{
+   top:25vw;
+   padding: 1.5vw;
+   width:20vw;
+   left:15vw;
+}
+.container ul li:nth-child(3) a:nth-child(2) button{
+ top:32vw;
+ padding: 1.5vw;
+ left:10vw;
+ width:25vw;
+}
+.container ul li:nth-child(1) img{
+height: 50vw;
+}
+.all{
+    flex-direction: column;
+}
+.container1 ul li:nth-child(2){
+font-size: 4vw;
+}
+.container1 ul li:nth-child(5){
+    font-size: 2.5vw;
+}
+.container1 ul li:nth-child(5) p i{
+    font-size: 2.5vw;
+}
+.container1 ul li:nth-child(6){
+font-size: 3vw;
+}
+.container1 ul li:nth-child(6) i{
+font-size: 3vw;
+}
+.heading{
+    font-size: 4vw;
+}
+.subHead{
+   font-size: 3vw;
+}
+.container1 ul li:nth-child(4){
+    font-size: 3vw;
+}
+.container1 ul li:nth-child(8){
+font-size: 2.5vw;
+}
+.container1 ul li:nth-child(10) p{
+    font-size: 2.5vw;
+}
+.container1 ul li:nth-child(12){
+font-size: 2.5vw;
+}
+}

@@ -1,0 +1,93 @@
+
+.body{
+    overflow-x: hidden;
+    background-color: red;
+}
+
+/* Start
+this whole code is all the product boxes */
+.container div{
+    display: flex;
+   
+}
+/* this flex will arrange the two boxes inside ul in row */
+.container div ul{
+    display: flex;
+}
+.container div ul a{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+text-decoration:none;
+    width:15vw;
+    background-color: white;
+    padding: 1vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+  box-shadow: 0 4px 4px rgba(0,0,0, 0.3), 0 4px 4px rgba(0,0,0, 0.2);
+
+}
+.container div ul a img{
+    width:80%;
+    text-align: left;
+}
+
+.container div ul a p{
+font-size: 1.2vw;
+text-decoration:none;
+color:#1a8f58;
+margin-left: 1vw;
+font-weight: bold;
+margin-top: 0.5vw;
+
+}
+#cost{
+    font-size: 1.5vw;
+}
+#brand{
+    font-size: 1vw;
+    color:black;
+   
+}
+/* end */
+
+
+/* Start
+This code for the list on the right */
+/*.opt{
+    margin-top: 3vw;
+    position: absolute;
+    box-shadow: 0 4px 4px rgba(0,0,0, 0.3), 0 4px 4px rgba(0,0,0, 0.2);
+    padding: 1vw 0;
+    background-color: white;
+    position: absolute;
+    top:5vw;
+    position: fixed;
+}
+.opt ul a{
+  text-decoration: none;
+  color:black;
+}
+.opt ul a li{
+    list-style: none;
+    padding:1.3vw 1vw 1.3vw 10vw;
+    margin:1vw;
+    font-size:1.1vw;
+    width:15vw;
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+}
+.opt ul a li:hover{
+    background-color: #308ce2;
+    color:white;
+}
+.opt1{
+  left:78vw;
+
+}
+.opt1 ul a li{
+  padding:1.3vw 10vw 1.3vw 3vw;
+}
+/* end 
